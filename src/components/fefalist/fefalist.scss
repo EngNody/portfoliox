@@ -1,0 +1,17 @@
+@import "../../global.scss";
+
+.fefalist{
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 5px;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+
+  &.active{
+    background-color: $maincolor;
+    color: white;
+    transition: all 0.5s;
+  }
+}

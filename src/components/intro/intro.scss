@@ -1,0 +1,99 @@
+@import "../../global.scss";
+
+.intro{
+background-color: white;
+display: flex;
+
+@include mobile{
+  flex-direction: column;
+  align-items: center;
+}
+
+.left{
+  // border: 2px solid blue;
+flex: 0.5;
+overflow: hidden;
+
+.imgcontainer{
+  // border: 5px solid red;
+  width: 90%;
+  height: 80%;
+overflow: hidden;
+border-radius: 50%;
+justify-content: center;
+margin: 50px auto;
+
+// @include mobile{
+  // align-items: flex-start;
+// }
+   img{
+    // border: 5px solid blue;
+    width: 100%;
+    height: 100%;
+
+    // @include mobile{
+      // height: 50%;
+    // }
+  }
+}
+}
+
+.right{
+  flex: 0.5;
+  position: relative;
+
+  .wrapper{
+    width: 100%;
+    height: 100%;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @include mobile{
+      padding-left: 0;
+      align-items: center;
+    }
+
+    h1{
+      font-size: 60px;
+      margin: 10px 0;
+    }
+    h2{
+      font-size: 35px;
+    }
+    .hehe{
+      // border: 2px solid red;
+
+    h3{
+      font-size: 30px;
+      display: flex;
+      flex-direction: row;
+
+      span{
+        font-size: inherit;
+        color: crimson;
+        margin-left: 5px;
+        }
+      }
+    }
+  }
+  a{
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+
+    img{
+      width: 30px;
+      animation: arrowBlink 2s infinite;
+    }
+    @keyframes arrowBlink {
+      100%{
+        opacity: 0;
+      }
+    }
+  }
+}
+
+
+}
