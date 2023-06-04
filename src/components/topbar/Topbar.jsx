@@ -9,10 +9,10 @@ import {Person,Mail} from '@material-ui/icons';
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-        <a href="#intro" className="logo">genuis.</a>
+        <a href="#intro" className="logo">NODE .</a>
         <div className="itemcontainer">
         <Person className="icon"/>
-        <span>+447775543</span>
+        <span>+201558325343</span>
         </div>
         <div className="itemcontainer">
         <Mail className="icon" />

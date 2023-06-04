@@ -76,7 +76,7 @@ switch (selected) {
     {data.map((d,i) => (
       <div className="item" id={d.id} key={i}>
       <img src={d.img} alt={d.title}/>
-      <h3>{d.title}</h3>
+      <a href={d.href}>{d.title}</a>
       </div>
     ))}
       </div>
@@ -84,6 +84,7 @@ switch (selected) {
     
   );
 }
+
 
 
 // <div className="item">

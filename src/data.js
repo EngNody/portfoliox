@@ -12,7 +12,8 @@ export const featuredfefa = [
 {
   id:3,
   title:"Ecommerce Web Design",
-  img:"assets/connect1.jpg"
+  img:"assets/webpage1.png",
+  href:"http://127.0.0.1:5500/E-commerce2.html"
 },
 {
   id:4,
