@@ -4,7 +4,7 @@
 import {useEffect,useState} from "react";
 import Fefalist from "../fefalist/Fefalist"
 import "./portfolio.scss";
-import {featuredfefa,webfefa,mobilefefa,designfefa,contentfefa} from "../../data"
+import {featuredfefa,webfefa,Gamesfefa,designfefa,contentfefa} from "../../data"
 
 export default function Portfolio() {
 
@@ -21,8 +21,8 @@ export default function Portfolio() {
       title: "Web App",
     },
     {
-      id: "mobile"
-      ,title: "Mobile",
+      id: "Games"
+      ,title: "Games",
     },
     {
       id: "design",
@@ -44,8 +44,8 @@ switch (selected) {
       setData(webfefa);
       break;
 
-      case "mobile":
-        setData(mobilefefa);
+      case "Games":
+        setData(Gamesfefa);
         break;
 
         case "design":

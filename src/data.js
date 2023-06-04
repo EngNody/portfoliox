@@ -6,18 +6,18 @@ export const featuredfefa = [
 },
 {
   id:2,
-  title:"Rampa Ui Design",
-  img:"assets/connect (2).jpg"
-},
-{
-  id:3,
   title:"Ecommerce Web Design",
   img:"assets/webpage1.png",
   href:"http://127.0.0.1:5500/E-commerce2.html"
 },
 {
+  id:3,
+  title:"Rampa Ui Design",
+  img:"assets/connect (2).jpg"
+},
+{
   id:4,
-  title:"Relax Mobile App",
+  title:"Relax Games App",
   img:"assets/mobile1.jpg"
 },
 {
@@ -51,7 +51,7 @@ export const webfefa = [
   },
   {
     id:4,
-    title:"Web Relax Mobile App",
+    title:"Web Relax Games App",
     img:"assets/connect.jpg"
   },
   {
@@ -67,35 +67,35 @@ export const webfefa = [
   
   ]
 
-  export const mobilefefa = [
+  export const Gamesfefa = [
     {
       id:1,
-      title:"Mobile Social Media App",
+      title:"Games Social Media App",
       img:"assets/connect2.jpg"
     },
     {
       id:2,
-      title:"Mobile Rampa Ui Design",
+      title:"Games Rampa Ui Design",
       img:"assets/th.jpg"
     },
     {
       id:3,
-      title:"Mobile Ecommerce Web Design",
+      title:"Games Ecommerce Web Design",
       img:"assets/connect1.jpg"
     },
     {
       id:4,
-      title:"Mobile Relax Mobile App",
+      title:"Games Relax Games App",
       img:"assets/connect.jpg"
     },
     {
       id:5,
-      title:"Mobile Hero Web Design",
+      title:"Games Hero Web Design",
       img:"assets/mobile3.jpg"
     },
     {
       id:6,
-      title:"Mobile Banking App",
+      title:"Games Banking App",
       img:"assets/globe.jpg"
     },
     
@@ -118,7 +118,7 @@ export const webfefa = [
       },
       {
         id:4,
-        title:"Design Relax Mobile App",
+        title:"Design Relax Games App",
         img:"assets/teck4.jpg"
       },
       {
@@ -151,7 +151,7 @@ export const webfefa = [
         },
         {
           id:4,
-          title:"Content Relax Mobile App",
+          title:"Content Relax Games App",
           img:"assets/connect.jpg"
         },
         {
